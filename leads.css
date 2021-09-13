@@ -2,7 +2,17 @@ body {
     margin: 0;
     padding: 10px;
     min-width: 400px;
-    font-family: Arial, Helvetica, sans-serif
+    font-family: Arial, Helvetica, sans-serif;
+    border: 5px solid #5f9341;
+    background-color: beige;
+}
+h1 {
+    font-size: 3em;
+    text-align: center;
+    color: #5f9341;
+    text-shadow: 
+    0.05em 0.05em #5f9341, 
+    0.1em 0.1em 0 #e9ec31;
 }
 input {
     width: 100%;
