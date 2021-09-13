@@ -4,14 +4,13 @@ body {
     min-width: 400px;
     font-family: Arial, Helvetica, sans-serif;
     background-color: beige;
+    text-align: center;
 }
 h1 {
     font-size: 3em;
     text-align: center;
     color: #5f9341;
-    text-shadow: 
-    0.05em 0.05em #5f9341, 
-    0.1em 0.1em 0 #e9ec31;
+    margin-top: 0;
 }
 input {
     width: 100%;
@@ -23,7 +22,7 @@ input {
 button {
     background-color: #5f9341;
     color: white;
-    padding: 1%;
+    padding: 2%;
     border: 1px solid #5f9341;
     font-weight: bold;
 }
@@ -37,8 +36,24 @@ ul {
     margin-top: 20px;
 }
 li {
-    margin-top: 5px;
+    margin-top: 10px;
+    text-align: left;
 }
 li a {
     color: #5f9341;
+    text-decoration: none;
 }
+li a:hover {
+    text-decoration: underline;
+}
+.btn.raised {
+    box-shadow: 0 1px 2px #222;
+    transition: 
+      box-shadow 0.7s ease,
+      transform 0.7s ease;
+  }
+  
+  .btn.raised:hover {
+    box-shadow: 0 7px 3px -3px #222;
+    transform: translateY(2px)
+  }
