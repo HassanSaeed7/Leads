@@ -1,26 +1,42 @@
+html {
+    background: rgba(0, 0, 0, 0.9);
+    
+}
 body {
     margin: 0;
     padding: 10px;
-    min-width: 400px;
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
-    background-color: beige;
-    border-bottom: 5px solid #5f9341;
-    border-top: 5px solid #5f9341;
+    min-width: 450px;
+    font-family: "Poppins", sans-serif;
+    position: relative;
+   
 
+}
+.far {
+  color: white;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.container {
+  width: 85%;
+  margin: auto;
 }
 h1 {
     font-size: 4em;
-    text-align: center;
-    color: #5f9341;
-    margin: 0;
+    text-align: left;
+   color: white;
+    margin: 5% 0 2.5%;
+}
+.inner-container {
+  display: flex;
+  justify-content: space-between;
 }
 input {
     width: 100%;
-    padding: 10px;
+    padding: 2.5%;
     box-sizing: border-box;
     border: 1px solid #5f9341;
-    margin-bottom: 5px;
+    margin: 0 auto 2.5%;
 }
 button {
     background-color: #5f9341;
@@ -42,45 +58,48 @@ ul {
     list-style: none;
     padding-left: 0;
     margin-top: 20px;
+   
 }
 li {
-    margin-top: 20px;
-    text-align: left;
+    margin: 5% auto;
+   
+    
 }
 li a {
-    color: #5f9341;
+    color: rgba(255, 255, 255, 0.75);
     text-decoration: none;
     font-size: 16px;
 }
 li a:hover {
-    text-decoration: underline;
+    color: white;
+    border-bottom: 2px solid white;
 }
 .btn.raised {
     box-shadow: 0 1px 2px #222;
     transition: 
-      box-shadow 0.7s ease,
-      transform 0.7s ease;
+      box-shadow 0.5s ease,
+      transform 0.5s ease;
   }
   
   .btn.raised:hover {
     box-shadow: 0 7px 3px -3px #222;
-    transform: translateY(2px)
+    transform: translateY(2px);
   }
   .tooltip {
     position: relative;
     text-align: start;
-    width: max-content;
+    width: 100%;
   }
   
   .tooltip .tooltiptext {
     visibility: hidden;
-    background-color: white;
-    border-radius: 6px;
-    padding: 5px 2px;
+    background-color: white; 
+    padding: 2.5%;
     width: max-content;
     /* Position the tooltip */
     position: absolute;
     z-index: -1;
+    right: 2.5%;
   }
   
   .tooltip:hover .tooltiptext {

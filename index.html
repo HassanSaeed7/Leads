@@ -11,20 +11,25 @@
 <body> 
     <div class="tooltip"><i class="far fa-lg fa-question-circle"></i>
     <span class="tooltiptext">
-    SAVE INPUT: Saves the link in the text field. <br><br>
-    SAVE TAB: Saves the current tab you are viewing. <br><br>
-    DELETE ALL: Delete the list by double-clicking. <br><br>
-    DOWNLOAD: Download the links/list as a .csv file.        
+    <strong>SAVE INPUT:</strong> Save the text in the text field. <br><br>
+    <strong>SAVE TAB:</strong> Save the current window tab. <br><br>
+    <strong>DELETE ALL:</strong> Double click to delete the list. <br><br>
+    <strong>DOWNLOAD:</strong> Download the list as a .csv file.        
     </span>
       </div>
-    <h1>Linꓘ|Keeper</h1>   
-
+      <div class="container">
+    <h1>LinKeeper</h1>   
+      
+    
     <input type="text" id="input-el" placeholder="Enter here">
+        <div class="inner-container">
     <button class="btn raised" id="input-btn">SAVE INPUT</button>
     <button class="btn raised" id="tab-btn">SAVE TAB</button>
     <button class="btn raised" id="delete-btn">DELETE ALL</button>
     <button class="btn raised" id="download-btn">DOWNLOAD</button>
+    </div>
     <ul id="ul-el"></ul>
+</div>
     <script src="leads.js"></script>
 </body>
 </html>

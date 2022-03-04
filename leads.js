@@ -61,6 +61,6 @@ downloadBtn.addEventListener("click", function() {
   let hiddenElement = document.createElement('a')  
   hiddenElement.href = 'data:text/csv;charset=utf-8,' + encodeURI(csv)  
   hiddenElement.target = '_blank' 
-  hiddenElement.download = 'trackedlist.csv'  //name for the CSV file to be downloaded 
+  hiddenElement.download = 'linkkeeper.csv'  //name for the CSV file to be downloaded 
   hiddenElement.click()  
 })
