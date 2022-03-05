@@ -1,10 +1,14 @@
 {
     "manifest_version": 3,
-    "version": "1.0",
-    "name": "Link Tracker",
+    "version": "0.0.1",
+    "name": "Link Keeper",
+    "description": "This extension keeps a persistent list of links (or any string, really). Users can save from the input field, the current tab, download the list, and/or delete it.",
+    "icons": {
+        "icon": "icon.png"
+    },
     "action": {
         "default_popup": "index.html",
-        "default_icon": "icon1.png"
+        "default_icon": "icon.png"
     },
     "permissions": [
         "tabs"
